@@ -4,7 +4,7 @@ import time
 
 while True:
     now = datetime.now()
-    fout = open('test.txt', 'w')
+    fout = open('Syncer_log.txt', 'w')
     fout.write(now.strftime('%Y-%m-%d %H:%M:%S') + '\n')
     fout.close()
 
